@@ -1,0 +1,361 @@
+1.Date and time:
+	2022年 05月 18日 星期三 15:30:05 CST
+
+2.OS version:
+	Debian GNU/Linux 11 \n \l
+	Linux debian 5.10.0-12-amd64 #1 SMP Debian 5.10.103-1 (2022-03-07) x86_64 GNU/Linux
+
+3.Hardware info:
+	3.1 CPU info:
+	processor	: 0
+	vendor_id	: GenuineIntel
+	cpu family	: 6
+	model		: 142
+	model name	: Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
+	stepping	: 11
+	microcode	: 0xb8
+	cpu MHz		: 1800.002
+	cache size	: 6144 KB
+	physical id	: 0
+	siblings	: 1
+	core id		: 0
+	cpu cores	: 1
+	apicid		: 0
+	initial apicid	: 0
+	fpu		: yes
+	fpu_exception	: yes
+	cpuid level	: 22
+	wp		: yes
+	flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb 				rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 				sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault 				invpcid_single ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt xsaveopt 			xsavec xgetbv1 xsaves arat md_clear flush_l1d arch_capabilities
+	bugs		: spectre_v1 spectre_v2 spec_store_bypass mds swapgs itlb_multihit srbds
+	bogomips	: 3600.00
+	clflush size	: 64
+	cache_alignment	: 64
+	address sizes	: 45 bits physical, 48 bits virtual
+	power management:
+
+	3.2 MEMinfo:
+	MemTotal:        1996308 kB
+	MemFree:           95924 kB
+	MemAvailable:     888456 kB
+	Buffers:           43476 kB
+	Cached:           869080 kB
+	SwapCached:           56 kB
+	Active:           374708 kB
+	Inactive:        1267236 kB
+	Active(anon):       1628 kB
+	Inactive(anon):   749028 kB
+	Active(file):     373080 kB
+	Inactive(file):   518208 kB
+	Unevictable:           0 kB
+	Mlocked:               0 kB
+	SwapTotal:        998396 kB
+	SwapFree:         997360 kB
+	Dirty:                40 kB
+	Writeback:             0 kB
+	AnonPages:        724896 kB
+	Mapped:           297632 kB
+	Shmem:             21268 kB
+	KReclaimable:      65368 kB
+	Slab:             123508 kB
+	SReclaimable:      65368 kB
+	SUnreclaim:        58140 kB
+	KernelStack:        9312 kB
+	PageTables:        14596 kB
+	NFS_Unstable:          0 kB
+	Bounce:                0 kB
+	WritebackTmp:          0 kB
+	CommitLimit:     1996548 kB
+	Committed_AS:    3763084 kB
+	VmallocTotal:   34359738367 kB
+	VmallocUsed:       24784 kB
+	VmallocChunk:          0 kB
+	Percpu:            96768 kB
+	HardwareCorrupted:     0 kB
+	AnonHugePages:    409600 kB
+	ShmemHugePages:        0 kB
+	ShmemPmdMapped:        0 kB
+	FileHugePages:         0 kB
+	FilePmdMapped:         0 kB
+	HugePages_Total:       0
+	HugePages_Free:        0
+	HugePages_Rsvd:        0
+	HugePages_Surp:        0
+	Hugepagesize:       2048 kB
+	Hugetlb:               0 kB
+	DirectMap4k:      178048 kB
+	DirectMap2M:     1918976 kB
+	DirectMap1G:           0 kB
+
+	3.3 Disk info
+	文件系统        容量  已用  可用 已用% 挂载点
+	udev            953M     0  953M    0% /dev
+	tmpfs           195M  1.3M  194M    1% /run
+	/dev/sda1        19G  9.4G  8.3G   53% /
+	tmpfs           975M     0  975M    0% /dev/shm
+	tmpfs           5.0M  4.0K  5.0M    1% /run/lock
+	tmpfs           195M  128K  195M    1% /run/user/1000
+	/dev/sr0        378M  378M     0  100% /media/cdrom0
+	vmhgfs-fuse     350G   98G  253G   28% /mnt/hgfs
+
+4.Uptime
+	15:36:55 up 51 min,  1 user,  load average: 0.05, 0.09, 0.10
+
+5.Services information
+	 [ - ]  alsa-utils
+	 [ - ]  anacron
+	 [ + ]  apparmor
+	 [ + ]  avahi-daemon
+	 [ + ]  binfmt-support
+	 [ - ]  bluetooth
+	 [ - ]  console-setup.sh
+	 [ + ]  cron
+	 [ + ]  dbus
+	 [ + ]  gdm3
+	 [ - ]  hwclock.sh
+	 [ - ]  keyboard-setup.sh
+	 [ + ]  kmod
+	 [ + ]  networking
+	 [ + ]  open-vm-tools
+	 [ - ]  plymouth
+	 [ + ]  plymouth-log
+	 [ + ]  procps
+	 [ - ]  pulseaudio-enable-autospawn
+	 [ + ]  rsyslog
+	 [ - ]  saned
+	 [ - ]  speech-dispatcher
+	 [ - ]  sudo
+	 [ - ]  suricata
+	 [ + ]  udev
+	 [ + ]  unattended-upgrades
+	 [ - ]  x11-common
+
+6.NIC info
+	ens33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+		inet 192.168.109.130  netmask 255.255.255.0  broadcast 192.168.109.255
+		inet6 fe80::20c:29ff:fe47:70b3  prefixlen 64  scopeid 0x20<link>
+		ether 00:0c:29:47:70:b3  txqueuelen 1000  (Ethernet)
+		RX packets 195214  bytes 290243178 (276.7 MiB)
+		RX errors 0  dropped 0  overruns 0  frame 0
+		TX packets 58771  bytes 3644771 (3.4 MiB)
+		TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+	lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+		inet 127.0.0.1  netmask 255.0.0.0
+		inet6 ::1  prefixlen 128  scopeid 0x10<host>
+		loop  txqueuelen 1000  (Local Loopback)
+		RX packets 61  bytes 5676 (5.5 KiB)
+		RX errors 0  dropped 0  overruns 0  frame 0
+		TX packets 61  bytes 5676 (5.5 KiB)
+		TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+7.Route info
+	Kernel IP routing table
+	Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+	0.0.0.0         192.168.109.2   0.0.0.0         UG        0 0          0 ens33
+	192.168.109.0   0.0.0.0         255.255.255.0   U         0 0          0 ens33
+	
+8.Arp info
+	_gateway (192.168.109.2) at 00:50:56:e8:bc:3d [ether] on ens33
+	? (192.168.109.254) at 00:50:56:e0:a4:1e [ether] on ens33
+
+9.Process info
+	USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+	root           1  0.1  0.5 165988 11456 ?        Ss   14:45   0:04 /sbin/init
+	root           2  0.0  0.0      0     0 ?        S    14:45   0:00 [kthreadd]
+	root           3  0.0  0.0      0     0 ?        I<   14:45   0:00 [rcu_gp]
+	root           4  0.0  0.0      0     0 ?        I<   14:45   0:00 [rcu_par_gp]
+	root           6  0.0  0.0      0     0 ?        I<   14:45   0:00 [kworker/0:0H
+	root           9  0.0  0.0      0     0 ?        I<   14:45   0:00 [mm_percpu_wq
+	root          10  0.0  0.0      0     0 ?        S    14:45   0:00 [rcu_tasks_ru
+	root          11  0.0  0.0      0     0 ?        S    14:45   0:00 [rcu_tasks_tr
+	root          12  0.0  0.0      0     0 ?        S    14:45   0:01 [ksoftirqd/0]
+	root          13  0.0  0.0      0     0 ?        I    14:45   0:00 [rcu_sched]
+	root          14  0.0  0.0      0     0 ?        S    14:45   0:00 [migration/0]
+	root          15  0.0  0.0      0     0 ?        S    14:45   0:00 [cpuhp/0]
+	root          17  0.0  0.0      0     0 ?        S    14:45   0:00 [kdevtmpfs]
+	root          18  0.0  0.0      0     0 ?        I<   14:45   0:00 [netns]
+	root          19  0.0  0.0      0     0 ?        S    14:45   0:00 [kauditd]
+	root          20  0.0  0.0      0     0 ?        S    14:45   0:00 [khungtaskd]
+	root          21  0.0  0.0      0     0 ?        S    14:45   0:00 [oom_reaper]
+	root          22  0.0  0.0      0     0 ?        I<   14:45   0:00 [writeback]
+	root          23  0.0  0.0      0     0 ?        S    14:45   0:00 [kcompactd0]
+	root          24  0.0  0.0      0     0 ?        SN   14:45   0:00 [ksmd]
+	root          25  0.0  0.0      0     0 ?        SN   14:45   0:01 [khugepaged]
+	root          43  0.0  0.0      0     0 ?        I<   14:45   0:00 [kintegrityd]
+	root          44  0.0  0.0      0     0 ?        I<   14:45   0:00 [kblockd]
+	root          45  0.0  0.0      0     0 ?        I<   14:45   0:00 [blkcg_punt_b
+	root          46  0.0  0.0      0     0 ?        I<   14:45   0:00 [edac-poller]
+	root          47  0.0  0.0      0     0 ?        I<   14:45   0:00 [devfreq_wq]
+	root          48  0.0  0.0      0     0 ?        I<   14:45   0:00 [kworker/0:1H
+	root          49  0.0  0.0      0     0 ?        S    14:45   0:00 [kswapd0]
+	root          50  0.0  0.0      0     0 ?        I<   14:45   0:00 [kthrotld]
+	root          51  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/24-pcieh
+	root          52  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/25-pcieh
+	root          53  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/26-pcieh
+	root          54  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/27-pcieh
+	root          55  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/28-pcieh
+	root          56  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/29-pcieh
+	root          57  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/30-pcieh
+	root          58  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/31-pcieh
+	root          59  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/32-pcieh
+	root          60  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/33-pcieh
+	root          61  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/34-pcieh
+	root          62  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/35-pcieh
+	root          63  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/36-pcieh
+	root          64  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/37-pcieh
+	root          65  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/38-pcieh
+	root          66  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/39-pcieh
+	root          67  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/40-pcieh
+	root          68  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/41-pcieh
+	root          69  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/42-pcieh
+	root          70  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/43-pcieh
+	root          71  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/44-pcieh
+	root          72  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/45-pcieh
+	root          73  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/46-pcieh
+	root          74  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/47-pcieh
+	root          75  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/48-pcieh
+	root          76  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/49-pcieh
+	root          77  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/50-pcieh
+	root          78  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/51-pcieh
+	root          79  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/52-pcieh
+	root          80  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/53-pcieh
+	root          81  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/54-pcieh
+	root          82  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/55-pcieh
+	root          83  0.0  0.0      0     0 ?        I<   14:45   0:00 [acpi_thermal
+	root          84  0.0  0.0      0     0 ?        I<   14:45   0:00 [ipv6_addrcon
+	root          94  0.0  0.0      0     0 ?        I<   14:45   0:00 [kstrp]
+	root          97  0.0  0.0      0     0 ?        I<   14:45   0:00 [zswap-shrink
+	root          98  0.0  0.0      0     0 ?        I<   14:45   0:00 [kworker/u257
+	root         140  0.0  0.0      0     0 ?        I<   14:45   0:00 [mpt_poll_0]
+	root         141  0.0  0.0      0     0 ?        I<   14:45   0:00 [ata_sff]
+	root         142  0.0  0.0      0     0 ?        I<   14:45   0:00 [mpt/0]
+	root         143  0.0  0.0      0     0 ?        S    14:45   0:00 [scsi_eh_0]
+	root         144  0.0  0.0      0     0 ?        I<   14:45   0:00 [scsi_tmf_0]
+	root         145  0.0  0.0      0     0 ?        S    14:45   0:00 [scsi_eh_1]
+	root         146  0.0  0.0      0     0 ?        I<   14:45   0:00 [scsi_tmf_1]
+	root         150  0.0  0.0      0     0 ?        S    14:45   0:00 [irq/16-vmwgf
+	root         151  0.0  0.0      0     0 ?        I<   14:45   0:00 [ttm_swap]
+	root         152  0.0  0.0      0     0 ?        S    14:45   0:00 [scsi_eh_2]
+	root         153  0.0  0.0      0     0 ?        S    14:45   0:00 [card0-crtc0]
+	root         154  0.0  0.0      0     0 ?        I<   14:45   0:00 [scsi_tmf_2]
+	root         155  0.0  0.0      0     0 ?        S    14:45   0:00 [card0-crtc1]
+	root         156  0.0  0.0      0     0 ?        S    14:45   0:00 [card0-crtc2]
+	root         157  0.0  0.0      0     0 ?        S    14:45   0:00 [card0-crtc3]
+	root         158  0.0  0.0      0     0 ?        S    14:45   0:00 [card0-crtc4]
+	root         159  0.0  0.0      0     0 ?        S    14:45   0:00 [card0-crtc5]
+	root         160  0.0  0.0      0     0 ?        S    14:45   0:00 [card0-crtc6]
+	root         161  0.0  0.0      0     0 ?        S    14:45   0:00 [card0-crtc7]
+	root         201  0.0  0.0      0     0 ?        S    14:45   0:00 [jbd2/sda1-8]
+	root         202  0.0  0.0      0     0 ?        I<   14:45   0:00 [ext4-rsv-con
+	root         241  0.0  1.2  81540 24156 ?        Ss   14:45   0:01 /lib/systemd/
+	root         263  0.0  0.0 150476   276 ?        Ssl  14:45   0:00 vmware-vmbloc
+	root         267  0.0  0.3  23400  5992 ?        Ss   14:45   0:00 /lib/systemd/
+	root         335  0.0  0.0      0     0 ?        I<   14:45   0:00 [cryptd]
+	systemd+     473  0.0  0.2  88508  5752 ?        Ssl  14:45   0:00 /lib/systemd/
+	root         475  0.0  0.5  48156 10144 ?        Ss   14:45   0:00 /usr/bin/VGAu
+	root         477  0.1  0.4 163132  8940 ?        Ssl  14:45   0:04 /usr/bin/vmto
+	root         480  0.0  0.3 236788  7264 ?        Ssl  14:45   0:00 /usr/libexec/
+	avahi        484  0.0  0.1   7272  3320 ?        Ss   14:45   0:00 avahi-daemon:
+	root         487  0.0  0.1   6896  2644 ?        Ss   14:45   0:00 /usr/sbin/cro
+	message+     488  0.0  0.2   9760  5584 ?        Ss   14:45   0:02 /usr/bin/dbus
+	root         489  0.0  0.8 255288 16852 ?        Ssl  14:45   0:00 /usr/sbin/Net
+	root         493  0.0  0.4 235884  9488 ?        Ssl  14:45   0:02 /usr/libexec/
+	root         494  0.0  0.2 220740  4484 ?        Ssl  14:45   0:00 /usr/sbin/rsy
+	root         495  0.0  0.2 233216  5796 ?        Ssl  14:45   0:00 /usr/libexec/
+	root         498  0.0  0.3  13924  7152 ?        Ss   14:45   0:00 /lib/systemd/
+	root         499  0.0  0.6 393716 13844 ?        Ssl  14:45   0:00 /usr/libexec/
+	root         500  0.0  0.2  14560  4908 ?        Ss   14:45   0:00 /sbin/wpa_sup
+	avahi        504  0.0  0.0   7092   348 ?        S    14:45   0:00 avahi-daemon:
+	root         516  0.0  0.5 240980 10240 ?        Ssl  14:45   0:00 /usr/sbin/Mod
+	root         523  0.0  1.1 118932 22728 ?        Ssl  14:45   0:00 /usr/bin/pyth
+	root         541  0.0  0.4 239872  8140 ?        Ssl  14:45   0:00 /usr/sbin/gdm
+	rtkit        662  0.0  0.1 153692  3056 ?        SNsl 14:45   0:00 /usr/libexec/
+	root         861  0.0  0.3 247288  7692 ?        Ssl  14:45   0:00 /usr/libexec/
+	geoclue      873  0.0  0.9 360432 18432 ?        Ssl  14:45   0:00 /usr/libexec/
+	root         878  0.4  2.5 438888 50728 ?        Ssl  14:45   0:17 /usr/libexec/
+	colord      1031  0.0  0.6 243212 12352 ?        Ssl  14:45   0:00 /usr/libexec/
+	root        1096  0.0  0.5 314448 10136 ?        Sl   14:45   0:00 gdm-session-w
+	hu          1101  0.0  0.4  15884  9556 ?        Ss   14:45   0:00 /lib/systemd/
+	hu          1102  0.0  0.1 167040  2788 ?        S    14:45   0:00 (sd-pam)
+	hu          1121  0.0  0.2  90572  4720 ?        S<sl 14:45   0:00 /usr/bin/pipe
+	hu          1122  0.2  1.3 1156376 26284 ?       S<sl 14:45   0:07 /usr/bin/puls
+	hu          1125  0.0  1.2 510036 25380 ?        SNsl 14:45   0:00 /usr/libexec/
+	hu          1128  0.0  0.4 237892  9580 ?        Sl   14:45   0:00 /usr/bin/gnom
+	hu          1132  0.0  0.2 159208  5548 tty2     Ssl+ 14:45   0:00 /usr/libexec/
+	hu          1134  0.0  0.2   9172  5284 ?        Ss   14:45   0:00 /usr/bin/dbus
+	hu          1138  0.0  0.2  85300  4676 ?        S<l  14:45   0:00 /usr/bin/pipe
+	hu          1139  0.0  0.7 298500 15488 tty2     Sl+  14:45   0:00 /usr/libexec/
+	hu          1193  0.0  0.2  88388  4184 ?        Ssl  14:45   0:00 /usr/libexec/
+	hu          1194  0.0  0.3 311028  7420 ?        Ssl  14:45   0:00 /usr/libexec/
+	hu          1195  0.0  0.1   5964  3680 ?        Ss   14:45   0:00 ssh-agent -D 
+	hu          1196  0.0  0.8 446712 16956 ?        Ssl  14:45   0:00 /usr/libexec/
+	hu          1204  0.0  0.5 379924 10160 ?        Sl   14:45   0:00 /usr/libexec/
+	hu          1225  0.0  0.3 307292  6112 ?        Sl   14:45   0:00 /usr/libexec/
+	hu          1229  3.7 18.1 3890980 361700 ?      Rsl  14:45   2:08 /usr/bin/gnom
+	hu          1234  0.0  0.2   8040  4260 ?        S    14:45   0:00 /usr/bin/dbus
+	hu          1246  0.0  0.6 497172 12800 ?        Ssl  14:45   0:00 /usr/libexec/
+	hu          1253  0.0  2.3 455956 47884 ?        Sl   14:45   0:00 /usr/bin/Xway
+	hu          1254  0.0  0.2 233240  5684 ?        Ssl  14:45   0:00 /usr/libexec/
+	hu          1259  0.0  0.2 235608  5636 ?        Ssl  14:45   0:00 /usr/libexec/
+	hu          1281  0.0  0.2 233276  4476 ?        Ssl  14:45   0:00 /usr/libexec/
+	hu          1286  0.0  1.0 581028 20612 ?        Sl   14:45   0:00 /usr/libexec/
+	hu          1292  0.0  1.2 467196 24288 ?        Ssl  14:45   0:00 /usr/libexec/
+	hu          1299  0.0  1.9 629496 39040 ?        Sl   14:45   0:00 /usr/libexec/
+	hu          1302  0.0  1.6 727084 33556 ?        Ssl  14:46   0:00 /usr/libexec/
+	hu          1305  0.0  0.3 311948  6828 ?        Ssl  14:46   0:00 /usr/libexec/
+	hu          1313  0.0  0.4 312420  8476 ?        Sl   14:46   0:00 /usr/libexec/
+	hu          1318  0.0  0.2 233460  5496 ?        Ssl  14:46   0:00 /usr/libexec/
+	hu          1331  0.0  0.3 156128  7488 ?        Sl   14:46   0:00 /usr/libexec/
+	hu          1337  0.0  1.6 677252 33228 ?        Ssl  14:46   0:00 /usr/libexec/
+	hu          1346  0.0  1.2 2527104 25912 ?       Sl   14:46   0:00 /usr/bin/gjs 
+	hu          1347  0.0  0.4 165668  8812 ?        Sl   14:46   0:00 /usr/libexec/
+	hu          1354  0.0  0.4 307400  8572 ?        Ssl  14:46   0:00 /usr/libexec/
+	hu          1356  0.0  1.4 599124 28128 ?        Ssl  14:46   0:00 /usr/libexec/
+	hu          1360  0.0  0.8 376680 17688 ?        Ssl  14:46   0:00 /usr/libexec/
+	hu          1363  0.0  0.3 309408  7200 ?        Ssl  14:46   0:00 /usr/libexec/
+	hu          1364  0.1  6.4 802276 127792 ?       Sl   14:46   0:05 /usr/bin/gnom
+	hu          1369  0.0  1.1 342832 21964 ?        Ssl  14:46   0:00 /usr/libexec/
+	hu          1372  0.0  0.2 231792  4920 ?        Sl   14:46   0:00 /usr/libexec/
+	hu          1375  0.0  1.4 932112 29268 ?        Ssl  14:46   0:00 /usr/libexec/
+	hu          1378  0.0  4.0 781136 81304 ?        Sl   14:46   0:00 /usr/libexec/
+	hu          1380  0.1  3.5 722892 70744 ?        Sl   14:46   0:05 /usr/bin/vmto
+	hu          1391  0.0  1.3 524860 27472 ?        Ssl  14:46   0:00 /usr/libexec/
+	hu          1397  0.0  0.6 320736 12452 ?        Ssl  14:46   0:00 /usr/libexec/
+	hu          1398  0.0  0.2 454680  5776 ?        Ssl  14:46   0:00 /usr/libexec/
+	hu          1405  0.0  0.2 233112  5756 ?        Ssl  14:46   0:00 /usr/libexec/
+	hu          1413  0.0  0.4 462872  9352 ?        Ssl  14:46   0:00 /usr/libexec/
+	hu          1428  0.0  0.5 313068 10116 ?        Ssl  14:46   0:00 /usr/libexec/
+	hu          1430  0.0  0.4 320044  9436 ?        Ssl  14:46   0:00 /usr/libexec/
+	hu          1435  0.0  0.5 382660 10936 ?        Ssl  14:46   0:00 /usr/libexec/
+	hu          1439  0.0  1.2 416980 24132 ?        Ssl  14:46   0:00 /usr/libexec/
+	hu          1452  0.0  0.8 345220 16760 ?        Sl   14:46   0:00 /usr/libexec/
+	hu          1511  0.1  0.5 311536 11116 ?        Sl   14:46   0:05 ibus-daemon -
+	hu          1513  0.0  3.2 781840 64160 ?        Ssl  14:46   0:00 /usr/libexec/
+	hu          1524  0.0  0.4 160396  8944 ?        Sl   14:46   0:00 /usr/libexec/
+	hu          1525  0.0  1.4 346860 28532 ?        Sl   14:46   0:03 /usr/libexec/
+	hu          1528  0.0  2.8 629748 56448 ?        Sl   14:46   0:00 /usr/libexec/
+	hu          1533  0.0  0.3 234172  7028 ?        Sl   14:46   0:00 /usr/libexec/
+	root        1558  0.0  1.5 382380 31188 ?        Ssl  14:46   0:01 /usr/libexec/
+	hu          1593  0.0  0.3 160388  6908 ?        Sl   14:46   0:01 /usr/libexec/
+	hu          2036  0.0  0.6 278868 12368 ?        Sl   14:46   0:00 /usr/libexec/
+	hu          2077  0.0  0.4 311540  9436 ?        Sl   14:46   0:00 /usr/libexec/
+	hu          2094  0.0  0.3 384768  7596 ?        Sl   14:46   0:00 /usr/libexec/
+	hu          2100  0.0  0.4 311824  8280 ?        Sl   14:47   0:00 /usr/libexec/
+	hu          2111  0.0  0.3 159872  6248 ?        Ssl  14:47   0:00 /usr/libexec/
+	hu          2248  0.0  0.4 387220  8024 ?        Sl   14:47   0:00 /usr/libexec/
+	root        4108  0.0  0.2 645436  5212 ?        Ssl  14:55   0:00 /usr/bin/vmhg
+	hu          4114  0.0  0.4 385924  9116 ?        Sl   14:55   0:00 /usr/libexec/
+	root        4292  0.0  0.0      0     0 ?        I    15:04   0:00 [kworker/u256
+	hu          4662  0.8  4.7 819228 95428 ?        Sl   15:20   0:12 /usr/bin/naut
+	root        4723  0.0  0.0      0     0 ?        I    15:29   0:00 [kworker/u256
+	root        4743  0.0  0.0      0     0 ?        I    15:31   0:00 [kworker/0:1-
+	root        4763  0.0  0.0      0     0 ?        I    15:36   0:00 [kworker/0:0-
+	root        4995  0.0  0.0      0     0 ?        I    15:40   0:00 [kworker/u256
+	root        4997  0.0  0.0      0     0 ?        I    15:41   0:00 [kworker/0:2-
+	root        5001  0.0  0.0      0     0 ?        I    15:41   0:00 [kworker/u256
+	root        5059  0.0  0.0      0     0 ?        I    15:42   0:00 [kworker/0:3-
+	hu          5071  1.2  4.3 581772 86060 ?        Sl   15:42   0:00 /usr/bin/gedi
+	hu          5078  0.9  3.4 565780 68412 ?        Ssl  15:43   0:00 /usr/libexec/
+	hu          5083  0.0  0.2   8328  4680 pts/0    Ss   15:43   0:00 bash
+	hu          5087  0.0  0.1   9928  3356 pts/0    R+   15:43   0:00 ps aux
